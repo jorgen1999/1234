@@ -12,7 +12,7 @@ ENV PYTHONUNBUFFERED 1
 # The folder will be used as the work directory
 # subsequent commands.
 
-WORKDIR /mysite.
+WORKDIR /app
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
