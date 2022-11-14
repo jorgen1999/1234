@@ -2,7 +2,7 @@ FROM python:3.11-rc-bullseye
 # The following configuration tells django to
 # writes to the terminal in real time.
 # In this situation the output will not be buffered anywhere
-
+#ENdring1
 ENV PYTHONUNBUFFERED 1
 
 # The following configuration is used to
